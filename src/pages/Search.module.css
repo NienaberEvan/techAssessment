@@ -1,0 +1,42 @@
+.main {
+    /* background: hotpink; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    position: relative;
+}
+
+.title {
+    font-size: 2em;
+    margin: 0.75em 0;
+}
+
+.searchBar {
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0, 0.75);
+    /* border-radius: 7px; */
+    font-size: 1.5em;
+    outline: none;
+    padding: 0.25em;
+}
+
+.searchButton {
+    border: none;
+    border-radius: 7px;
+    font-size: 1em;
+    padding: 0.25em;
+    outline: none;
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0, 0.75);
+    margin: 1.5em 0;
+    cursor: pointer;
+}
+
+.searchButton:active {
+    box-shadow: inset 1px 1px 4px 0px rgba(0,0,0, 0.75);
+}
+
+.resultText {
+    font-size: 1.3em;
+}
